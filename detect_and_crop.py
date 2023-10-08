@@ -19,6 +19,7 @@ from utils.general import check_img_size, check_requirements, check_imshow, non_
 from utils.plots import plot_one_box
 from utils.torch_utils import select_device, load_classifier, time_synchronized, TracedModel
 
+
 #from api import model
 
 def detect(save_img=False):
@@ -29,7 +30,7 @@ def detect(save_img=False):
     
     #if not os.path.exists("crop"):
      #   os.mkdir("crop")
-    crp_cnt = 0
+    #crp_cnt = 0
 
     #if not os.path.exists("class"):
      #   os.makedirs("class")
